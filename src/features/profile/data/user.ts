@@ -1,33 +1,28 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Ramadan",
+  lastName: "Elgamal",
+  displayName: "Ramadan Elgamal",
+  username: "rb3",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Design Engineer",
+    "Frontend Developer",
     "Open Source Contributor",
   ],
   address: "Thanh My Tay Ward, Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  phoneNumber: "011425448164", 
+  email: "ramadanelgamal21@gmail.com",
+  website: "https://ramadanelgamal.netlify.app/",
+  jobTitle: "Frontend Developer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Trainiee Frontend Deloper",
+      company: "DEPI",
+      website: "https://debi.gov.eg/",
     },
   ],
   about: `
@@ -41,6 +36,9 @@ I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai
 
 Let's connect and collaborate!
   `,
+
+  // replace the logo
+  
   avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
