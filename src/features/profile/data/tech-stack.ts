@@ -20,18 +20,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
   },
   {
-    key: "php",
-    title: "PHP",
-    href: "https://www.php.net/",
-    categories: ["Language"],
-  },
-  {
-    key: "java",
-    title: "Java",
-    href: "https://www.java.com/",
-    categories: ["Language"],
-  },
-  {
     key: "nodejs",
     title: "Node.js",
     href: "https://nodejs.org/",
@@ -83,15 +71,15 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Animation"],
   },
   {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
-  },
-  {
     key: "redux",
     title: "Redux",
     href: "https://redux.js.org/",
+    categories: ["State Management"],
+  },
+  {
+    key: "zustand",
+    title: "Zustand",
+    href: "https://github.com/pmndrs/zustand",
     categories: ["State Management"],
   },
   {
@@ -108,22 +96,40 @@ export const TECH_STACK: TechStack[] = [
     theme: true,
   },
   {
-    key: "react-navigation",
-    title: "React Navigation",
-    href: "https://reactnavigation.org/",
-    categories: ["Library", "Navigation"],
+    key: "clerk",
+    title: "Clerk",
+    href: "https://clerk.com/",
+    categories: ["Library", "Authentication"],
   },
   {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
+    key: "supabase",
+    title: "Supabase",
+    href: "https://supabase.com/",
+    categories: ["Library", "Database"],
   },
   {
-    key: "laravel",
-    title: "Laravel",
-    href: "https://laravel.com/",
-    categories: ["Framework"],
+    key: "prisma",
+    title: "Prisma",
+    href: "https://www.prisma.io/",
+    categories: ["Library", "Database"],
+  },
+  {
+    key: "firebase",
+    title: "Firebase",
+    href: "https://firebase.google.com/",
+    categories: ["Library", "Database"],
+  },
+  {
+    key: "graphql",
+    title: "GraphQl",
+    href: "https://graphql.org/",
+    categories: ["Language"]
+  },
+  {
+    key: "postgresql",
+    title: "PostgreSQL",
+    href: "https://www.postgresql.org/",
+    categories: ["Database"]
   },
   {
     key: "git",
@@ -174,6 +180,7 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Tools", "AI"],
     theme: true,
   },
+  
   // {
   //   key: "zalo-mini-app",
   //   title: "Zalo Mini App",
